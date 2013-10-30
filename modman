@@ -1,0 +1,8 @@
+# Displaze Module
+code                                     app/code/community/Displaze/MySlideshow/
+skin                                     skin/frontend/base/default/displaze/
+
+design/frontend                          design/frontend/base/default/
+design/adminhtml                         design/adminhtml/default/default/
+
+Displaze_MySlideshow.xml                 app/etc/modules/Displaze_MySlideshow.xml
