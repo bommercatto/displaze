@@ -25,7 +25,7 @@ class Displaze_MySlideshow_Helper_Data extends Mage_Core_Helper_Abstract
     
     public function getSlideshowUrl()
     {
-        return Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'displaze/myslideshow/';
+        return Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA, array('_secure' => Mage::app()->getFrontController()->getRequest()->isSecure())) . 'displaze/myslideshow/';
     }
     
     public function getSlideshowPath()
